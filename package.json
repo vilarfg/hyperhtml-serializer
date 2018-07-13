@@ -1,0 +1,20 @@
+{
+  "name": "hyperhtml-serializer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "WTFPL",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "jest": "^23.4.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "./index.js"
+    ]
+  }
+}
