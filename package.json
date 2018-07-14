@@ -5,9 +5,11 @@
   "main": "index.js",
   "license": "WTFPL",
   "scripts": {
-    "version": "echo \"Use the release script !\"; exit 1",
+    "cover": "jest --coverage",
     "release": "standard-version",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "version": "echo \"Use the release script !\"; exit 1",
+    "watch": "jest --watch"
   },
   "files": [
     "index.js"

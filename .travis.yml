@@ -16,4 +16,9 @@ matrix:
     - node_js: '9'
     - node_js: 'stable'
 
-script: yarn test --coverage
+jobs:
+  include:
+    - stage: Code Coverage
+      script:
+      - yarn test -- --ci --coverage
+      - npx codecov
