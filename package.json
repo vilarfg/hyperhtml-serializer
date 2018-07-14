@@ -1,7 +1,7 @@
 {
   "name": "hyperhtml-serializer",
   "description": "Jest snapshot serializer that beautifies hyperHTML snapshots.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "WTFPL",
   "scripts": {
