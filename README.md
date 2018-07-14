@@ -3,7 +3,7 @@
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
 
-> [Jest](https://github.com/facebook/jest) snapshot serializer that beautifies [hyperHTML](https://github.com/WebReflection/hyperHTML) .
+> [Jest](https://github.com/facebook/jest) snapshot serializer that beautifies [hyperHTML](https://github.com/WebReflection/hyperHTML) snapshots.
 
 ## Why ?
 
