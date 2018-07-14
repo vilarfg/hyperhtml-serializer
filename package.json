@@ -5,6 +5,9 @@
   "main": "index.js",
   "license": "WTFPL",
   "scripts": {
+    "version": "echo \"Use the release script !\"; exit 1",
+    "publish": "echo \"Use the release script !\"; exit 1",
+    "release": "standard-version",
     "test": "jest --verbose"
   },
   "files": [

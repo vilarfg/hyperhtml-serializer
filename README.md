@@ -2,6 +2,7 @@
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
+[![Conventional Commits][conventional-commits-url]][conventional-commits-image]
 
 > [Jest](https://github.com/facebook/jest) snapshot serializer that beautifies [hyperHTML](https://github.com/WebReflection/hyperHTML) snapshots.
 
@@ -66,3 +67,5 @@ Add in your `package.json`.
 [npm-image]: http://img.shields.io/npm/v/hyperhtml-serializer.svg
 [travis-url]: http://travis-ci.com/douglasduteil/hyperhtml-serializer
 [travis-image]: http://travis-ci.com/douglasduteil/hyperhtml-serializer.svg?branch=master
+[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+[conventional-commits-url]: https://conventionalcommits.org*
