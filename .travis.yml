@@ -18,6 +18,11 @@ matrix:
 
 jobs:
   include:
+    - stage: Tests
+    - 
+      node_js: '9'
+    - 
+      node_js: '8'
     - stage: Code Coverage
       script:
       - yarn test -- --ci --coverage
