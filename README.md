@@ -10,7 +10,7 @@
 
 This serializer it made to remove :
 
-- hyperHTML `_hyper` comments like `<!--_hyper: (\d+);-->`
+- hyperHTML comments like `<!---0.536318%-->`
 
 Before :
 
@@ -18,9 +18,9 @@ Before :
 <foo-hyper-app>
   <!-- This is my comment -->
   <h1>Hello hyperHTML !</h1>
-  <!--_hyper: 123546789;-->
+  <!---0.753159%-->
   <h1>Hello world !</h1>
-  <!--_hyper: 123546789;-->
+  <!---0.852456%-->
 </foo-hyper-app>
 ```
 
